@@ -1,0 +1,26 @@
+PODS:
+  - Cordova (4.5.4)
+  - cordova-plugin-camera (2.3.0):
+    - Cordova (>= 4.3.0)
+  - cordova-plugin-wkwebview-engine (1.1.0):
+    - Cordova (>= 4.3.0)
+
+DEPENDENCIES:
+  - Cordova
+  - cordova-plugin-camera
+  - cordova-plugin-wkwebview-engine
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cordova
+    - cordova-plugin-camera
+    - cordova-plugin-wkwebview-engine
+
+SPEC CHECKSUMS:
+  Cordova: 90a337977b8667a80483f559268c82062b1183da
+  cordova-plugin-camera: f14580de3a57553b9e1e133fe2963216b2a444eb
+  cordova-plugin-wkwebview-engine: 38ccefc374b68251e8a0675fec57477dfd18da15
+
+PODFILE CHECKSUM: ca8cc7e12768336c947c6a367765a137faea7b5a
+
+COCOAPODS: 1.6.0.beta.1
