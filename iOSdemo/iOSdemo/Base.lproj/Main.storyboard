@@ -18,11 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTH-qu-8TN">
-                                <rect key="frame" x="95" y="210" width="46" height="30"/>
+                                <rect key="frame" x="81" y="123" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="localButton"/>
                                 <connections>
                                     <action selector="didClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SNN-bt-rnA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgp-nn-nZG">
+                                <rect key="frame" x="81" y="171" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="remoteButton"/>
+                                <connections>
+                                    <action selector="didClickRemote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XYS-81-KaH"/>
                                 </connections>
                             </button>
                         </subviews>

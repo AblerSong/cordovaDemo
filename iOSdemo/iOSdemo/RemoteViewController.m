@@ -1,24 +1,24 @@
 //
-//  DemoController.m
+//  RemoteViewController.m
 //  iOSdemo
 //
-//  Created by song on 2018/10/25.
+//  Created by song on 2018/10/30.
 //  Copyright © 2018年 song. All rights reserved.
 //
 
-#import "DemoController.h"
+#import "RemoteViewController.h"
 
-@interface DemoController ()
+@interface RemoteViewController ()
 
 @end
 
-@implementation DemoController
+@implementation RemoteViewController
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        self.wwwFolderName = @"www";
-        self.startPage = @"index.html";
+        self.wwwFolderName = @"";
+        self.startPage = @"https://www.baidu.com/";
     }
     return self;
 }

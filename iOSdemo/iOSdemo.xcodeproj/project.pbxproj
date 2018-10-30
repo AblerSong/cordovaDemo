@@ -20,6 +20,7 @@
 		E4ACFEDE21820187005578DD /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = E4ACFEDC21820187005578DD /* config.xml */; };
 		E4ACFEDF21820187005578DD /* www in Resources */ = {isa = PBXBuildFile; fileRef = E4ACFEDD21820187005578DD /* www */; };
 		E4ACFEE5218201F8005578DD /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACFEE4218201F8005578DD /* DemoController.m */; };
+		E4D5EE0021887A590048CA0A /* RemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D5EDFF21887A590048CA0A /* RemoteViewController.m */; };
 		F0C796FC3A7279DE440C3257 /* libPods-iOSdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACC5606AE09C64BA9BAB956 /* libPods-iOSdemo.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		E4ACFEDD21820187005578DD /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		E4ACFEE3218201F8005578DD /* DemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
 		E4ACFEE4218201F8005578DD /* DemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoController.m; sourceTree = "<group>"; };
+		E4D5EDFE21887A590048CA0A /* RemoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteViewController.h; sourceTree = "<group>"; };
+		E4D5EDFF21887A590048CA0A /* RemoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteViewController.m; sourceTree = "<group>"; };
 		F27CAF837603CC12401CFDE1 /* Pods-iOSdemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSdemoUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSdemoUITests/Pods-iOSdemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F7B590BAAAC45EDA241972F9 /* Pods-iOSdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSdemo.release.xcconfig"; path = "Target Support Files/Pods-iOSdemo/Pods-iOSdemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +159,8 @@
 				E4ACFEAE2182009D005578DD /* ViewController.m */,
 				E4ACFEE3218201F8005578DD /* DemoController.h */,
 				E4ACFEE4218201F8005578DD /* DemoController.m */,
+				E4D5EDFE21887A590048CA0A /* RemoteViewController.h */,
+				E4D5EDFF21887A590048CA0A /* RemoteViewController.m */,
 				E4ACFEB02182009D005578DD /* Main.storyboard */,
 				E4ACFEB32182009E005578DD /* Assets.xcassets */,
 				E4ACFEB52182009E005578DD /* LaunchScreen.storyboard */,
@@ -389,6 +394,7 @@
 			files = (
 				E4ACFEE5218201F8005578DD /* DemoController.m in Sources */,
 				E4ACFEAF2182009D005578DD /* ViewController.m in Sources */,
+				E4D5EE0021887A590048CA0A /* RemoteViewController.m in Sources */,
 				E4ACFEBA2182009F005578DD /* main.m in Sources */,
 				E4ACFEAC2182009D005578DD /* AppDelegate.m in Sources */,
 			);

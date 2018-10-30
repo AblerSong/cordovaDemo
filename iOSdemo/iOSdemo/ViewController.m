@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DemoController.h"
+#import "RemoteViewController.h"
 
 @interface ViewController ()
 
@@ -18,7 +19,11 @@
     DemoController *vc = [DemoController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
-    
+- (IBAction)didClickRemote:(id)sender {
+    RemoteViewController *vc = [RemoteViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
